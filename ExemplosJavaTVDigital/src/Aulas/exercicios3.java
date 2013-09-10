@@ -15,7 +15,7 @@ public class exercicios3 {
 			numero = numero-1;
 		}
 		
-		System.out.println("O fatorial é " + fatorial);
+		System.out.println("O fatorial de " + numero + " é " + fatorial);
 	
 	}
 
