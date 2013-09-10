@@ -4,7 +4,7 @@ public class retanguloprincipal {
 
 	public static void main(String[] args) {
 		retangulo obRetangulo;
-		double area;
+		double area, diagonal;
 		obRetangulo = new retangulo(); //criação do objeto
 
 		obRetangulo.largura = 5;
