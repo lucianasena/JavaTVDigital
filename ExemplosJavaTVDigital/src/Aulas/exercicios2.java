@@ -10,18 +10,19 @@ public class exercicios2 {
 		System.out.print("Informe o seu salário: ");
 		salario = entrada.nextInt();
 		
-		if (salario < 1050) {
+		if (salario <= 1050) {
 			System.out.println("Funcionário isento de imposto de renda.");
 			
-		} 
-		
+		} 		
 		else {
-				if (salario > 1050 && salario < 2500) {
+				if (salario > 1050 && salario <= 2500) {
 				System.out.println("Funcionário pagará 15%."); }
 				
 				else {
 					if (salario > 2500 && salario < 7500) {
-						System.out.println("Funcionário pagará 25%.");
+						System.out.println("Funcionário pagará 25%.");}
+					
+						else System.out.println("Bunda.");
 						
 					}
 			}
@@ -30,4 +31,3 @@ public class exercicios2 {
 		
 	}
 
-}
