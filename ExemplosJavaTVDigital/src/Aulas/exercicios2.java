@@ -1,7 +1,6 @@
 package Aulas;
 import java.util.Scanner;
 
-
 public class exercicios2 {
 	
 	public static void main(String args[]) {
