@@ -1,3 +1,9 @@
+/*
+ * Curso de TV Digital
+ * Exercício 4 do slide 3.
+ * Aluna: Luciana de Aguiar Sena.
+ */
+
 package Aulas;
 
 public class Retangulo {

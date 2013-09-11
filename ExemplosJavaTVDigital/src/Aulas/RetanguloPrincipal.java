@@ -1,8 +1,14 @@
+/*
+ * Curso de TV Digital
+ * Exercício 4 do slide 3.
+ * Aluna: Luciana de Aguiar Sena.
+ */
+
 package Aulas;
 import java.util.Scanner;
 
 public class RetanguloPrincipal {
-	
+
 	private static Scanner entrada;
 
 	public static void main(String[] args) {
