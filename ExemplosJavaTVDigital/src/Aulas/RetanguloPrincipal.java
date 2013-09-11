@@ -1,6 +1,6 @@
 /*
  * Curso de TV Digital
- * Exercício 4 do slide 3.
+ * Exercício 3 do slide 3.
  * Aluna: Luciana de Aguiar Sena.
  */
 
