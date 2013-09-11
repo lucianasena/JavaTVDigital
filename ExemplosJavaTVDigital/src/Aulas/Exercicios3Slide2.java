@@ -1,11 +1,13 @@
 package Aulas;
 import java.util.Scanner;
 
-public class exercicios3 {
+public class Exercicios3Slide2 {
+
+	private static Scanner entrada;
 
 	public static void main(String[] args) {
-		int numero, fatorial, n = 0;
-		Scanner entrada = new Scanner(System.in);
+		int numero, fatorial;
+		entrada = new Scanner(System.in);
 		System.out.print("Informe um número: ");
 		numero = entrada.nextInt();
 		

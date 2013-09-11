@@ -1,7 +1,7 @@
 package Aulas;
 import java.util.Scanner;
 
-public class exercicios {
+public class Exercicios1Slide2 {
 
 	private static Scanner entrada;
 

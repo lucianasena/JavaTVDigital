@@ -1,11 +1,13 @@
 package Aulas;
 import java.util.Scanner;
 
-public class exercicios2 {
+public class Exercicios2Slide2 {
 	
+	private static Scanner entrada;
+
 	public static void main(String args[]) {
 		int salario;
-		Scanner entrada = new Scanner(System.in);
+		entrada = new Scanner(System.in);
 		System.out.print("Informe o seu salário: ");
 		salario = entrada.nextInt();
 		

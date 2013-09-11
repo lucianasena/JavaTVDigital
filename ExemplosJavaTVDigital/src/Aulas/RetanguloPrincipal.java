@@ -1,11 +1,13 @@
 package Aulas;
 
-public class retanguloprincipal {
+public class RetanguloPrincipal {
 
 	public static void main(String[] args) {
-		retangulo obRetangulo;
-		double area, diagonal;
-		obRetangulo = new retangulo(); //criação do objeto
+		
+		Retangulo obRetangulo;
+		
+		double area;
+		obRetangulo = new Retangulo(); //criação do objeto
 
 		obRetangulo.largura = 5;
 		obRetangulo.altura = 4;
