@@ -6,7 +6,7 @@ public class Exercicios2Slide2 {
 	private static Scanner entrada;
 
 	public static void main(String args[]) {
-		int salario;
+		double salario, valor = 0;
 		entrada = new Scanner(System.in);
 		System.out.print("Informe o seu salário: ");
 		salario = entrada.nextInt();
@@ -17,16 +17,18 @@ public class Exercicios2Slide2 {
 		} 		
 		else {
 				if (salario > 1050 && salario <= 2500) {
-				System.out.println("Funcionário pagará 15%."); }
+					valor = (salario*15)/100;}
 				
 				else {
-					if (salario > 2500 && salario < 7500) {
-						System.out.println("Funcionário pagará 25%.");}
+					if (salario > 2500 && salario <= 7500) {
+						valor = (salario*25)/100;}
 					
-						else System.out.println("Bunda.");
+						else valor = (salario*35)/100;
 						
 					}
 			}
+		
+		System.out.println("O valor a ser pago é: " + valor);
 		}
 	
 		
