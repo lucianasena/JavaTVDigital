@@ -28,7 +28,7 @@ public class ContaCorrente {
 	}
 	
 	public boolean retira(double valor) {
-		if (valor > 0) {
+		if (valor <= saldoConta) {
 			return true;
 		} else {
 			return false;
