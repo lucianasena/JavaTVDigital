@@ -1,4 +1,4 @@
-package Aulas;
+package Aula1709;
 import java.util.Scanner;
 
 public class Figuras2DPrincipal {
