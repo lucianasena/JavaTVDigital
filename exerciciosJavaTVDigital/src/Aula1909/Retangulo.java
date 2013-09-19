@@ -1,12 +1,13 @@
 package Aula1909;
 
-class Retangulo extends Figuras2D {
-	Retangulo(double l, double a) {
-		super(l, a); // invoca o construtor da superclasse
+class Retangulo extends DuasDimensoes {
+	
+	Retangulo(int l, int a) {
+		super(l, a);
 	}
 
 	double area() {
-		System.out.println("Calculando a area do Retangulo.");
-		return largura * altura;
+		System.out.println("Área do Retangulo: ");
+		return l1*l2;
 	}
 }

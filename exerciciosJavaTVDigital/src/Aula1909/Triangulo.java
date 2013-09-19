@@ -1,12 +1,13 @@
 package Aula1909;
 
-class Triangulo extends Figuras2D {
-	Triangulo(double l, double a) {
-		super(l, a); // invoca o construtor da superclasse
+class Triangulo extends DuasDimensoes {
+	
+	Triangulo(int l, int a) {
+		super(l, a);
 	}
 
 	double area() {
-		System.out.println("Calculando a area do Triangulo.");
-		return (largura * altura) / 2;
+		System.out.println("Área do Triangulo: ");
+		return (l1*l2)/2;
 	}
 }
