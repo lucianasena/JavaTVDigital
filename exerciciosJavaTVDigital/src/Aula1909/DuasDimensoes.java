@@ -9,6 +9,8 @@ public abstract class DuasDimensoes extends Formas {
 		this.l2 = a;
 	}
 
-	abstract double area();
+	public abstract double area();
+	
+	
 
 }
