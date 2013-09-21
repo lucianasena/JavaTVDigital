@@ -8,9 +8,6 @@ public class FormasTeste {
 		TrianguloDuasD triangulo = new TrianguloDuasD(5, 4);
 		area = triangulo.area();
 		
-		//System.out.println("" + area);
-		
-		
 	}
 
 }
