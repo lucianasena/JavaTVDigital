@@ -22,8 +22,10 @@ public class Poupanca extends Conta{
 		this.diaAniversario = diaAniversario;
 	}
 	
-	public boolean calcCorrecao(){
-		return true;
+	public boolean calcCorrecao(int dia){
+		if dia == diaAniversario;
+			return true;
+		else return false;
 	}
 	
 	

@@ -34,7 +34,7 @@ public class Conta {
 	}
 	
 	public boolean saque(double valor){
-		if (valor > 0) {
+		if (valor <= saldo) {
 			return true;
 		} else {
 			return false;
